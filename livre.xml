@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<livre>
+    <titre>Introduction aux Technologies XML</titre>
+
+    <auteurs>
+        <auteur>
+            <prenom>Ahmed</prenom>
+            <nom>Benkacem</nom>
+        </auteur>
+        <auteur>
+            <prenom>Sarah</prenom>
+            <nom>Amrani</nom>
+        </auteur>
+    </auteurs>
+
+    <chapitre>
+        <titre>Chapitre 1 : Concepts de base</titre>
+
+        <section>
+            <titre>Qu'est-ce que XML ?</titre>
+            <paragraphe>
+                XML est un langage de balisage permettant de structurer des données.
+            </paragraphe>
+        </section>
+
+        <section>
+            <titre>Utilité de XML</titre>
+            <paragraphe>
+                XML est utilisé pour l'échange de données entre systèmes.
+            </paragraphe>
+            <paragraphe>
+                Il est lisible par l'homme et la machine.
+            </paragraphe>
+        </section>
+    </chapitre>
+
+    <chapitre>
+        <titre>Chapitre 2 : Structure d'un document XML</titre>
+
+        <section>
+            <titre>Éléments et balises</titre>
+            <paragraphe>
+                Un document XML est composé d'éléments définis par

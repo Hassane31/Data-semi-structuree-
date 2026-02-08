@@ -1,0 +1,21 @@
+livre {
+    display: block;
+}
+
+titre {
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight:
+        bold;
+    color: red;
+}
+
+auteur {
+    font-style: italic;
+    color: blue;
+}
+
+titre {
+    font-style: italic;
+    color: blue;
+}
