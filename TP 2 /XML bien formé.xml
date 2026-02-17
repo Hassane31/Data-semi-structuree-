@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listeAdresses SYSTEM "listeAdresses.dtd">
+<listeAdresses>
+
+    <adresse categorie="personnelle">
+        <nomComplet>Ahmed Kateb</nomComplet>
+        <num>121</num>
+        <rue>Plein-Ciel</rue>
+        <ville>Oran</ville>
+        <cp>31000</cp>
+    </adresse>
+
+    <adresse categorie="professionnelle">
+        <nomComplet>Sonelgaz</nomComplet>
+        <num>12</num>
+        <rue>Es-Senia</rue>
+        <ville>Oran</ville>
+        <cp>31000</cp>
+    </adresse>
+
+</listeAdresses>

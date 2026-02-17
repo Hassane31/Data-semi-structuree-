@@ -1,0 +1,10 @@
+<!ELEMENT listeAdresses (adresse+)>
+
+<!ELEMENT adresse (nomComplet, num, rue, ville, cp)>
+<!ATTLIST adresse categorie (personnelle|professionnelle) #REQUIRED>
+
+<!ELEMENT nomComplet (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
