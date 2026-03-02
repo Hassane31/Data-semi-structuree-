@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE forum SYSTEM "forum.dtd">
+
+<forum>
+
+<utilisateurs>
+<utilisateur id="u1">
+<nom>Ali</nom>
+<prenom>Ali</prenom>
+<email>ali@e11.fr</email>
+</utilisateur>
+
+<utilisateur id="u2">
+<nom>hassane</nom>
+<prenom>laabane</prenom>
+<email>hassane@gmail.com</email>
+</utilisateur>
+</utilisateurs>
+
+<messages>
+<message id="m1" expediteur="u1">
+<texte> slm3likm</texte>
+</message>
+
+<message id="m2" expediteur="u2" reponseA="m1">
+<texte>w3lykm slm</texte>
+</message>
+
+<message id="m3" expediteur="u1" reponseA="m2">
+<texte>cv ?</texte>
+</message>
+
+    </messages>
+
+</forum>
