@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  carnet   SYSTEM "Document2.dtd">
+
+<carnet>
+
+ <contact>
+
+       <identifiant>
+
+           <nom>Ahmed</nom>
+           <prenom>Kateb</prenom>
+
+        </identifiant>
+
+          <adresse>
+          
+            <num>121</num>
+            <rue>plein-ciel</rue>
+            <ville>Oran</ville>
+            <codePostal>31000</codePostal>
+
+          </adresse>
+</contact>
+
+
+
+      <contact>
+          <identifiant >  
+
+                <nom>sonalgaze</nom>
+
+           </identifiant>
+        
+          <adresse>
+          
+            <num>14 12</num>
+            <rue>ES-senia</rue>
+            <ville>Oran</ville>
+            <codePostal>31000</codePostal>
+
+          </adresse>
+    </contact> 
+
+</carnet>

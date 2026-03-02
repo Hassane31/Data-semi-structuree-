@@ -1,0 +1,12 @@
+﻿<!ELEMENT carnet (contact*)>
+<!ELEMENT contact (identifiant+, adresse+)>
+<!ELEMENT identifiant (personne | societe)>
+<!ELEMENT personne (nom, prenom)>
+<!ELEMENT societe (nom)>
+<!ELEMENT adresse (num, rue, ville, codePostal)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT codePostal (#PCDATA)>

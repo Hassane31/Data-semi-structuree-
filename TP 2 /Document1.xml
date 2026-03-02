@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<carnet>
+
+ <contact>
+
+       <identicateur categorie ="parsonne">
+
+           <nom>Ahmed</nom>
+           <prenom>Kateb</prenom>
+
+        </identicateur>
+
+          <adress>
+          
+            <num>121</num>
+            <rue>plein-ciel</rue>
+            <ville>Oran</ville>
+            <codepostal>31000</codepostal>
+
+          </adress>
+
+</contact>
+      <contact>
+
+          <identicateur categorie ="societe">  
+
+                <nom>sonalgaze</nom>
+
+           </identicateur>
+          
+          <adress>
+          
+            <num>14 12</num>
+            <rue>ES-senia</rue>
+            <ville>Oran</ville>
+            <codepostal>31000</codepostal>
+
+          </adress>
+    </contact> contact>
+
+</carnet>
