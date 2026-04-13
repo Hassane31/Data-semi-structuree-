@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<liste_acteurs>
+    <!-- Clint Eastwood -->
+    <acteur id="clint">
+        <prenom>Clint</prenom>
+        <nom>Eastwood</nom>
+        <naissance>31 Mai 1930</naissance>
+        <nationalite>américaine</nationalite>
+        <photo source="clint.jpg" alt="Clint Eastwood" />
+        <site url="http://www.clinteastwood.net/" />
+        <biographie>
+            <p> Né d'un père comptable, le jeune Clinton …... Puis il part à l'armée où il fait des
+                rencontres décisives et obtient du travail chez Universal. Il fait sa première
+                apparition en <annee>1955</annee> dans <film>La Revanche de la créature</film> puis
+                enchaîne les petits rôles dans cinq films où personne ne le remarque véritablement. </p>
+            <p> Avec le drame <film>Million dollar baby</film>, le cinéaste obtient une véritable
+                consécration en remportant, douze ans après <film>Impitoyable</film>, l'Oscar du
+                Meilleur film et du Meilleur réalisateur, ses comédiens <refacteur code="hilary">Hilary
+                Swank</refacteur> et <refacteur code="morgan">Morgan Freeman</refacteur> repartant
+                avec les statuettes de La Meilleure actrice et du Meilleur second rôle masculin. </p>
+        </biographie>
+    </acteur>
+    <!-- Hilary Swank -->
+    <acteur id="hilary">
+        ……………...
+</acteur>
+    <!-- Morgan Freeman -->
+    <acteur id="morgan">
+        ……………………….
+</acteur>
+</liste_acteurs>
