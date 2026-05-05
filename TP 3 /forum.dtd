@@ -1,17 +1,16 @@
-﻿<!ELEMENT form (utilisateur | message ) *>
+﻿<!ELEMENT form (utilisateur | message ) >
 <!ELEMENT utilisateur (nom,prenom,email)>
-<!ELEMENT message(expediteur,texte,auterieur)>
+<!ELEMENT message (expediteur,texte,auterieur)>
 <!ATTLIST utilisateur code ID #REQUIRED>
 
 <!ELEMENT messages (message+)>
-<!ATTLIST message 
-                           code ID #REQUIRED
-                           expediteur IDref  #REQUIRED
+<!ATTLIST message
+    code ID #REQUIRED
+    expediteur IDREF  #REQUIRED
                            
->
+  >
 
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT prenom (#PCDATA)>
 <!ELEMENT text (#PCDATA)>
 <!ELEMENT message (#PCDATA)>
-
